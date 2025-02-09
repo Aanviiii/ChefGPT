@@ -7,27 +7,22 @@ The **Recipe Finder** is a web-based application that helps users discover recip
 
 ## 💡 Key Features  
 
-### 1️⃣ Navigation Bar with Search Bar  
-- A **clean and minimalistic navigation bar** at the top.  
-- A **search bar** allows users to look for specific recipes.  
-- A **"+" button** to open an **ingredient input container**.  
-
-### 2️⃣ Adding Ingredients with Quantities  
+### 1️⃣ Adding Ingredients with Quantities  
 - Users can input an **ingredient name** and **its quantity**.  
 - Clicking **"Ingredient Input Done"** creates a **card** displaying the ingredient.  
 - The list updates dynamically, and users can **remove ingredients** if needed.  
 
-### 3️⃣ Ingredient Cards Section  
+### 2️⃣ Ingredient Cards Section  
 - Ingredients are visually displayed as **cards**, each showing:  
   - ✅ Ingredient Name  
   - ✅ Quantity  
   - ✅ Remove Button  
 
-### 4️⃣ Generate Recipes Button  
+### 3️⃣ Generate Recipes Button  
 - Clicking **"Generate Recipes"** sends a request to an **API** to fetch relevant recipes.  
 - The API filters recipes that match the provided **ingredients + quantities**.  
 
-### 5️⃣ Recipe Suggestions Section (To Be Implemented)  
+### 4️⃣ Recipe Suggestions Section (To Be Implemented)  
 - Once recipes are fetched, they will be displayed with:  
   - ✅ Recipe Name  
   - ✅ Ingredients Required  
@@ -57,14 +52,6 @@ Two APIs will be integrated:
 - **🛠️ No Backend Needed**: Fully functional using **only frontend technologies**.  
 - **📊 API-Powered**: Fetch recipes dynamically using real-time data.  
 - **🧑‍🍳 Smart Cooking**: Helps users cook based on available ingredients.  
-
----
-
-## ✨ Future Enhancements  
-- 🔹 **Save Favorite Recipes** – Users can bookmark recipes.  
-- 🔹 **Meal Planner Mode** – Suggest meals for an entire week.  
-- 🔹 **Nutritional Info** – Show calories, macros, and health benefits.  
-- 🔹 **Voice Input** – Add ingredients using voice commands.  
 
 ---
 
