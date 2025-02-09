@@ -4,6 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChefGPT</title>
+    <link rel="stylesheet" href="finalStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body>
+    <div id="recipeResults"></div>
+    <nav>
+      <h1>ChefGPT</h1>
+      <input type="text" id="searchBar" placeholder="Search for a recipe..." />
+      <div class="add-btn" onclick="toggleIngredientInput()">
+        <i class="fa-solid fa-plus"></i>
+      </div>
+    </nav>
+
+    <div id="ingredientInputContainer">
+      <input type="text" id="ingredientName" placeholder="Ingredient Name" />
+      <input type="text" id="ingredientQuantity" placeholder="Quantity (e.g.,
+      200g, 1 cup) />
+      <button id="createCard">Create Card</button>
+    </div>
+
+    <div id="ingredientList"></div>
+
+    <button id="generateRecipes">Generate Recipes</button>
+
+    <div id="recipesContainer"></div>
+    <script src="script.js"></script>
+  </body>
 </html>
