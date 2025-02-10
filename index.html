@@ -17,15 +17,18 @@
     <div id="recipeResults"></div>
     <nav>
       <h1>ChefGPT</h1>
-      <div class="add-btn" onclick="toggleIngredientInput()">
+      <div class="add-btn" onclick="toggleIngredientInput()" id="addIngredient">
         <i class="fa-solid fa-plus"></i>
       </div>
     </nav>
 
     <div id="ingredientInputContainer">
       <input type="text" id="ingredientName" placeholder="Ingredient Name" />
-      <input type="text" id="ingredientQuantity" placeholder="Quantity (e.g.,
-      200g, 1 cup) />
+      <input
+        type="text"
+        id="ingredientQuantity"
+        placeholder="Quantity (e.g., 200g, 1 cup)"
+      />
       <button id="createCard">Create Card</button>
     </div>
 
